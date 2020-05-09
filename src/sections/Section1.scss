@@ -1,40 +1,42 @@
 @import '../styles/variables';
 
 #section-1 {
-  display: flex;
-  justify-content: space-between;
-
-  .section-title {
-    padding: 5rem 0;
-    text-align: center;
-  }
-
-  .section-left {
+  .section {
     display: flex;
-    justify-content: center;
-    flex: 1;
-    flex-direction: column;
+    justify-content: space-between;
+
+    .section-title {
+      padding: 5rem 0;
+      text-align: center;
+    }
+
+    .section-left {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+      flex-direction: column;
+    }
+
+    .section-article {
+      max-width: 85%;
+    }
   }
 
-  .section-article {
-    max-width: 85%;
+  .img-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+
+    .section-img-small {
+      margin: 1rem;
+    }
   }
-}
-
-.img-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 5rem;
-  flex-wrap: wrap;
-
-  .section-img-small {
-    margin: 1rem;
-  }
-}
 
 
-@media only screen and (max-width: $media-breakpoint-small) {
-  .img-right {
-    display: none;;
+  @media only screen and (max-width: $media-breakpoint-small) {
+    .img-right {
+      display: none;;
+    }
   }
 }

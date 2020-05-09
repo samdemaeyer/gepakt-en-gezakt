@@ -20,7 +20,7 @@ class NavBar extends React.Component {
         <img src="/gepakt-en-gezakt/logo.png" alt="main-logo" className="main-logo" />
         <ul className="nav-items">
           <li>
-            <a href="#section-1" onClick={(e) => this.scrollToAnchor(e, 'section-1')} className="nav-item">
+            <a href="#section-1" onClick={(e) => this.scrollToAnchor(e, 'scroll-section-1')} className="nav-item">
               gepakt en gezakt
             </a>
           </li>

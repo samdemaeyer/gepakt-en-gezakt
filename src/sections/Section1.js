@@ -1,10 +1,10 @@
 import React from 'react';
 import './Section1.scss';
 
-function Section1() {
+function Section1(props) {
   return (
-    <>
-      <section className="bg-light" id="section-1">
+    <div id={props.id}>
+      <section className="bg-light section" id="scroll-section-1">
         <div className="section-left">
           <h2 className="section-title">Ik word geire gedragen.</h2>
           <article className="section-article">
@@ -29,7 +29,7 @@ function Section1() {
         <img className="section-img-small" src="/gepakt-en-gezakt/section-1/girl-waring-bag.jpg" alt="girl waring bag on shoulder"/>
         <img className="section-img-small" src="/gepakt-en-gezakt/section-1/girl-holding-bag-2.jpg" alt="girl holding bag"/>
       </section>
-    </>
+    </div>
   );
 }
 

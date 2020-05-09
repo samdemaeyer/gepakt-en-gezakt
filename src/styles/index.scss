@@ -9,6 +9,11 @@
 
 body {
   padding-top: $nav-bar-height;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .bg-light {
