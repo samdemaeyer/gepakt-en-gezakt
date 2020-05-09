@@ -1,0 +1,19 @@
+// @import '../styles/variables';
+
+#section-2 {
+  display: flex;
+  justify-content: space-between;
+
+  .section-title {
+    padding: 2rem;
+  }
+
+  .section-article {
+    max-width: 60%;
+    display: flex;
+
+    p {
+      padding: 1rem 2rem;
+    }
+  }
+}

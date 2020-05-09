@@ -3,7 +3,23 @@
 @import 'mixins';
 @import 'reboot';
 
+* {
+  color: $primary;
+}
 
-.section-bg {
-  background-color: $section-bg;
+.bg-light {
+  background-color: $bg-light;
+}
+
+.section-title {
+  color: $section-title-color;
+}
+
+.section-article {
+  background-color: $bg-darker;
+  padding: 2rem;
+}
+
+.section {
+  padding-bottom: 5rem;
 }

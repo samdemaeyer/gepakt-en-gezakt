@@ -4,7 +4,7 @@ import './Section1.scss';
 function Section1() {
   return (
     <>
-      <section className="section-bg" id="section-1">
+      <section className="bg-light" id="section-1">
         <div className="section-left">
           <h2 className="section-title">Ik word geire gedragen.</h2>
           <article className="section-article">
@@ -19,13 +19,13 @@ function Section1() {
             </p>
           </article>
         </div>
-        <img src="section-1/girl-holding-bag.png" alt="Girl olding a bag" />
+        <img src="gepakt-en-gezakt/section-1/girl-holding-bag.png" alt="Girl olding a bag" />
       </section>
-      <section className="section-bg img-wrapper">
-        <img src="section-1/bag.jpg" alt="gril"/>
-        <img src="section-1/girl-holding-bag-1.jpg" alt="gril"/>
-        <img src="section-1/girl-waring-bag.jpg" alt="gril"/>
-        <img src="section-1/girl-holding-bag-2.jpg" alt="gril"/>
+      <section className="section bg-light img-wrapper">
+        <img src="gepakt-en-gezakt/section-1/bag.jpg" alt="gril"/>
+        <img src="gepakt-en-gezakt/section-1/girl-holding-bag-1.jpg" alt="gril"/>
+        <img src="gepakt-en-gezakt/section-1/girl-waring-bag.jpg" alt="gril"/>
+        <img src="gepakt-en-gezakt/section-1/girl-holding-bag-2.jpg" alt="gril"/>
       </section>
     </>
   );

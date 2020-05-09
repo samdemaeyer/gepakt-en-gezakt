@@ -1,12 +1,12 @@
 import React from 'react';
-import './Section1.scss';
+import './Section2.scss';
 
 function Section2() {
   return (
     <>
-      <section className="section-bg" id="section-2">
+      <section className="section bg-light" id="section-2">
         <h2 className="section-title">Ik word geire gedragen.</h2>
-        <article>
+        <article className="section-article">
           <p>
             Sed varius ac diam eu hendrerit. Fusce libero orci, volutpat sed magna id, fringilla pulvinar justo. Integer
             elementum sapien tellus, sit amet pretium leo rhoncus non. Vestibulum a metus finibus purus tristique
