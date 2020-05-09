@@ -1,17 +1,84 @@
+@import '../styles/variables';
+
 .main-nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: 1rem;
   position: fixed;
+  top: 0;
   width: 100vw;
-  background: white;
+  background: $white;
+  height: $nav-bar-height;
+
+  .main-logo {
+    height: $main-logo-height;
+  }
 
   .nav-items {
     display: flex;
     align-items: center;
 
+    li {
+      list-style: none;
+    }
+
     .nav-item {
       margin: 0 1rem;
+    }
+  }
+
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: $media-breakpoint-medium) {
+    height: $nav-bar-height-small;
+
+    .main-logo {
+      height: $main-logo-height-small;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+
+    &.is-open {
+      border-bottom: 1px solid;
+
+      .nav-items {
+        display: block;
+      }
+    }
+
+    .nav-items {
+      display: block;
+      position: absolute;
+      top: $nav-bar-height-small;
+      width: 100vw;
+      left: 0;
+      padding-left: 0;
+      background-color: $white;
+      display: none;
+
+      &.is-open {
+        display: none;
+      }
+
+      li {
+        border-bottom: 1px solid;
+
+        &:hover {
+          background-color: $bg-light;
+        }
+      }
+
+      .nav-item {
+        padding: 1rem 0;
+        display: block;
+      }
     }
   }
 }

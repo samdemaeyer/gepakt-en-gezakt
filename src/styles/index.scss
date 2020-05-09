@@ -7,6 +7,10 @@
   color: $primary;
 }
 
+body {
+  padding-top: $nav-bar-height;
+}
+
 .bg-light {
   background-color: $bg-light;
 }
@@ -22,4 +26,11 @@
 
 .section {
   padding-bottom: 5rem;
+}
+
+
+@media only screen and (max-width: $media-breakpoint-medium) {
+  body {
+    padding-top: $nav-bar-height-small;
+  }
 }

@@ -1,4 +1,4 @@
-// @import '../styles/variables';
+@import '../styles/variables';
 
 #section-2 {
   display: flex;
@@ -6,6 +6,8 @@
 
   .section-title {
     padding: 2rem;
+    width: 100%;
+    text-align: center;
   }
 
   .section-article {
@@ -14,6 +16,21 @@
 
     p {
       padding: 1rem 2rem;
+    }
+  }
+
+  @media only screen and (max-width: $media-breakpoint-small) {
+    flex-direction: column;
+    align-items: flex-end;
+
+    .section-article {
+      max-width: 85%;
+    }
+  }
+
+  @media only screen and (max-width: $media-breakpoint-xs) {
+    .section-article {
+      flex-direction: column;
     }
   }
 }

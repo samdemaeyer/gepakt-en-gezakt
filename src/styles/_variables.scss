@@ -30,3 +30,13 @@ $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: underline;
 
 $section-title-color: rgb(194, 105, 33);
+$main-logo-height: 70px;
+$main-logo-height-small: 50px;
+
+$nav-bar-height: calc(#{$main-logo-height} + 2rem);
+$nav-bar-height-small: calc(#{$main-logo-height-small} + 2rem);
+
+// media size
+$media-breakpoint-xs: 585px;
+$media-breakpoint-small: 740px;
+$media-breakpoint-medium: 820px;

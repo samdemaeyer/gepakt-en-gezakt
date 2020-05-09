@@ -19,13 +19,15 @@ function Section1() {
             </p>
           </article>
         </div>
-        <img src="gepakt-en-gezakt/section-1/girl-holding-bag.png" alt="Girl olding a bag" />
+        <div className="img-right">
+          <img src="/gepakt-en-gezakt/section-1/girl-holding-bag.png" alt="Girl olding a bag" />
+        </div>
       </section>
       <section className="section bg-light img-wrapper">
-        <img src="gepakt-en-gezakt/section-1/bag.jpg" alt="gril"/>
-        <img src="gepakt-en-gezakt/section-1/girl-holding-bag-1.jpg" alt="gril"/>
-        <img src="gepakt-en-gezakt/section-1/girl-waring-bag.jpg" alt="gril"/>
-        <img src="gepakt-en-gezakt/section-1/girl-holding-bag-2.jpg" alt="gril"/>
+        <img className="section-img-small" src="/gepakt-en-gezakt/section-1/bag.jpg" alt="bag"/>
+        <img className="section-img-small" src="/gepakt-en-gezakt/section-1/girl-holding-bag-1.jpg" alt="girl holding bag"/>
+        <img className="section-img-small" src="/gepakt-en-gezakt/section-1/girl-waring-bag.jpg" alt="girl waring bag on shoulder"/>
+        <img className="section-img-small" src="/gepakt-en-gezakt/section-1/girl-holding-bag-2.jpg" alt="girl holding bag"/>
       </section>
     </>
   );
