@@ -1,0 +1,9 @@
+@import 'variables';
+@import 'vendor/rfs';
+@import 'mixins';
+@import 'reboot';
+
+
+.section-bg {
+  background-color: $section-bg;
+}

@@ -1,0 +1,14 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+
+    .nav-item {
+      margin: 0 1rem;
+    }
+  }
+}
