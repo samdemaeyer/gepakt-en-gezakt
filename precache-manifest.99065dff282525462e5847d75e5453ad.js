@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "534fd762a1406ad1d9b7192a8075cda3",
+    "revision": "6414ff4242daa3289ef8196d4e9a9ded",
     "url": "/gepakt-en-gezakt/index.html"
   },
   {
-    "revision": "e671bbd4084267ec0b50",
-    "url": "/gepakt-en-gezakt/static/css/main.f721101a.chunk.css"
+    "revision": "5773dba371a879b9b653",
+    "url": "/gepakt-en-gezakt/static/css/main.92e569a6.chunk.css"
   },
   {
     "revision": "36b3e9a530f4345fb22e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gepakt-en-gezakt/static/js/2.a9e21f66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e671bbd4084267ec0b50",
-    "url": "/gepakt-en-gezakt/static/js/main.4c1d0c5e.chunk.js"
+    "revision": "5773dba371a879b9b653",
+    "url": "/gepakt-en-gezakt/static/js/main.5d51bf8f.chunk.js"
   },
   {
     "revision": "1bd1e47c393a735a5a2d",
