@@ -14,8 +14,8 @@ $font-weight-base: $font-weight-normal;
 $line-height-base: 1.5;
 $body-color: #212529;
 $body-bg: $white;
-$bg-light: #efe1d7;
-$bg-darker: #f0d5ca;
+$bg-light: #d0ddd1;
+$bg-darker: #c1d5c4;
 $spacer: 1rem;
 $headings-margin-bottom: $spacer / 2;
 $paragraph-margin-bottom: 1rem;
@@ -28,6 +28,9 @@ $table-caption-color: $text-muted;
 $label-margin-bottom: 0.5rem;
 $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: underline;
+
+$font-primary: #3d8741;
+$font-secondary: #0d3d63;
 
 $section-title-color: rgb(194, 105, 33);
 $main-logo-height: 70px;

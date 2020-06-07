@@ -9,6 +9,7 @@
   width: 100vw;
   background: $white;
   height: $nav-bar-height;
+  z-index: 100;
 
   .main-logo {
     height: $main-logo-height;

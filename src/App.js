@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import Section1 from './sections/Section1';
 import Section2 from './sections/Section2';
+import Section3 from './sections/Section3';
 
 
 class App extends React.Component {
@@ -11,8 +12,7 @@ class App extends React.Component {
       sections: [
         <Section1 key={0} id="section-1" />,
         <Section2 key={1} id="section-2" />,
-        <Section1 key={2} id="section-1" />,
-        <Section2 key={3} id="section-2" />
+        <Section3 key={2} id="section-3" />,
       ]
     }
   }

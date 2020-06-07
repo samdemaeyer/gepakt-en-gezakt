@@ -1,36 +1,11 @@
 @import '../styles/variables';
 
 #section-2 {
-  display: flex;
-  justify-content: space-between;
+  .thumbs-wrapper {
+    justify-content: space-between;
 
-  .section-title {
-    padding: 2rem;
-    width: 100%;
-    text-align: center;
-  }
-
-  .section-article {
-    max-width: 60%;
-    display: flex;
-
-    p {
-      padding: 1rem 2rem;
-    }
-  }
-
-  @media only screen and (max-width: $media-breakpoint-small) {
-    flex-direction: column;
-    align-items: flex-end;
-
-    .section-article {
-      max-width: 85%;
-    }
-  }
-
-  @media only screen and (max-width: $media-breakpoint-xs) {
-    .section-article {
-      flex-direction: column;
+    .thumb {
+      width: 24%;
     }
   }
 }

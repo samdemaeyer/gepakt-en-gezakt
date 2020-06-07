@@ -1,42 +1,35 @@
 @import '../styles/variables';
 
 #section-1 {
-  .section {
+  .thumbs-wrapper {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
 
-    .section-title {
-      padding: 5rem 0;
-      text-align: center;
+    .thumb {
+      max-width: 32%;
     }
 
-    .section-left {
-      display: flex;
-      justify-content: center;
-      flex: 1;
-      flex-direction: column;
-    }
+  }
 
-    .section-article {
-      max-width: 85%;
+  .full-width {
+    width: 100%;
+  }
+
+  article {
+    .content {
+      &:not(:last-child) {
+        padding-right: 2rem;
+      }
     }
+  }
+
+  .content-left {
+    flex-direction: column;
+    max-width: 60%;
   }
 
   .img-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 5rem;
-    flex-wrap: wrap;
-
-    .section-img-small {
-      margin: 1rem;
-    }
-  }
-
-
-  @media only screen and (max-width: $media-breakpoint-small) {
-    .img-right {
-      display: none;;
-    }
+    margin: 0 0 0 auto;
   }
 }

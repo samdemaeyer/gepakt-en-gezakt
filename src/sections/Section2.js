@@ -1,26 +1,18 @@
 import React from 'react';
 import './Section2.scss';
 
-function Section2() {
+export default function Section2({ id }) {
   return (
-    <section className="section bg-light" id="section-2">
-      <h2 className="section-title">Ik word geire gedragen.</h2>
-      <article className="section-article">
-        <p>
-          Sed varius ac diam eu hendrerit. Fusce libero orci, volutpat sed magna id, fringilla pulvinar justo. Integer
-          elementum sapien tellus, sit amet pretium leo rhoncus non. Vestibulum a metus finibus purus tristique
-          tristique vel vitae velit. In porta orci vel eros ultricies laoreet. Sed et lacus eget dolor interdum
-          varius. Ut at tortor eleifend, facilisis lacus eget, iaculis nunc. Sed ut quam id risus faucibus congue
-        </p>
-        <p>
-          Aenean vitae molestie purus. Donec congue lacus sed sem dapibus luctus. Morbi lacus ex, sagittis eu orci id,
-          posuere interdum libero. Fusce auctor auctor ligula, sit amet accumsan nisl hendrerit sed. Curabitur
-          volutpat est accumsan leo convallis sodales. Mauris venenatis ante elit, et cursus elit mattis sit amet.
-          Nulla euismod hendrerit dictum. Mauris vel mauris et est auctor ullamcorper.{' '}
-        </p>
-      </article>
-    </section>
+    <div id={id}>
+      <section id="scroll-section-2" className="p-2 pt-5 mt-2">
+        <h2 className="title pb-1">Ik word geire gedragen.</h2>
+        <div className="thumbs-wrapper d-flex">
+          <img className="thumb" src="/gepakt-en-gezakt/section-1/bag.jpg" alt="bag" />
+          <img className="thumb" src="/gepakt-en-gezakt/section-1/girl-holding-bag-1.jpg" alt="girl holding bag" />
+          <img className="thumb" src="/gepakt-en-gezakt/section-1/girl-waring-bag.jpg" alt="girl waring bag" />
+          <img className="thumb" src="/gepakt-en-gezakt/section-1/girl-holding-bag-2.jpg" alt="girl holding bag" />
+        </div>
+      </section>
+    </div>
   );
-}
-
-export default Section2;
+};

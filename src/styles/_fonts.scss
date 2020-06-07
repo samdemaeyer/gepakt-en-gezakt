@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Ginto;
+  src: url(/gepakt-en-gezakt/GintoNordTrial-Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Ginto;
+  src: url(/gepakt-en-gezakt/fonts/GintoNordTrial-Regular.otf);
+}
+
+@font-face {
+  font-family: Ginto;
+  src: url(/gepakt-en-gezakt/fonts/GintoNormalTrial-Bold.woff);
+  font-weight: bold;
+}
+
+* {
+  font-family: Ginto, sans-serif;
+}
+
+h2 {
+  color: $font-primary;
+  font-weight: normal;
+
+  &.secondary {
+    color: $font-secondary;
+  }
+}

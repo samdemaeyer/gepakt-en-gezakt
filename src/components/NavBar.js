@@ -9,10 +9,9 @@ class NavBar extends React.Component {
 
   scrollToAnchor = (e, id) => {
     e.preventDefault();
-    document.getElementById(id).scrollIntoView({ behavior: 'smooth', block: "end", inline: "nearest" });
+    document.getElementById(id).scrollIntoView({ inline: 'nearest' });
     this.setState({ isOpen: false });
-  }
-
+  };
 
   render() {
     return (
@@ -21,27 +20,27 @@ class NavBar extends React.Component {
         <ul className="nav-items">
           <li>
             <a href="#section-1" onClick={(e) => this.scrollToAnchor(e, 'scroll-section-1')} className="nav-item">
-              gepakt en gezakt
+              De situatie
             </a>
           </li>
           <li>
             <a href="#section-2" onClick={(e) => this.scrollToAnchor(e, 'section-2')} className="nav-item">
-              't proces
+              Gepakt en Gezakt
             </a>
           </li>
           <li>
-            <a href="#" className="nav-item">
-              eieren of joeng
+            <a href="#section-3" onClick={(e) => this.scrollToAnchor(e, 'section-3')} className="nav-item">
+              'T proces
             </a>
           </li>
           <li>
-            <a href="#" className="nav-item">
-              zitzak
+            <a href="#section-4" onClick={(e) => this.scrollToAnchor(e, 'section-4')} className="nav-item">
+              Aanbod
             </a>
           </li>
           <li>
-            <a href="#" className="nav-item">
-              kussen
+            <a href="#section-5" onClick={(e) => this.scrollToAnchor(e, 'section-5')} className="nav-item">
+              Contact
             </a>
           </li>
         </ul>
