@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6414ff4242daa3289ef8196d4e9a9ded",
+    "revision": "2b03a0e869738faca95992e6641d0ac7",
     "url": "/gepakt-en-gezakt/index.html"
   },
   {
