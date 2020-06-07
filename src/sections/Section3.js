@@ -3,44 +3,54 @@ import './Section3.scss';
 
 export default function Section3({ id }) {
   return (
-    <div id={id}>
-      <section id="scroll-section-3" className="bg-darker section">
-        <div className="container d-flex">
-          <h2 className="title p-1 text-center">Gepakt en gezakt</h2>
-          <article className="py-5 px-3 bg-light content-right d-flex">
-            <p className="mr-2">
-              Onze campagne, gepakt en gezakt bestaat uit het doel om een duurzaam state- ment te kunnen maken. Zo hebben
-              we in deze campag- ne verschillende handige en milieuvriendelijke producten gemaakt. Deze campagne, ‘Gepakt
-              en Gezakt’, bestaat uit verschillende onderdelen, met telkens als basis het oog om een duurzaam statement te
-              kunnen maken. Zo kozen we ook voor een crowdfun- dingcampagne op te starten, waardoor we op voorhand weten
-              hoeveel stuks we hier- van moeten laten produceren door Flagbag.
-            </p>
-            <p>
-              Flagbag is een sociale twerk- stellingsorganisatie in Hasselt waar we na een bedrijfsbe- zoek volledig
-              overtuigd waren van hun werkwijze en visie, welke in dezelfde lijn ligt als de onze.Flagbag doet aan
-              ‘upcycling’ ‘cradle-to-crad- le‘ van afgedankte zeilen en vlaggen en maakt hiervan nieuwe producten. Doordat
-              deze onderdelen gerecycled worden, wordt er ook telkens een uniek stuk geprodu- ceerd‘ een limited edition.
-            </p>
-          </article>
+    <div id={id} className="scroll-section">
+      <h2 className="container">'t process</h2>
+      <section className="row container">
+        <div className="block bg-light">
+          <p>1. Flagbag verzamelt achtergelaten tenten op festivals.</p>
+        </div>
+        <div className="block">
+          <p>
+            2. Bruikbare tenten worden opnieuw verkocht, de afgedankte materialen worden geselecteerd voor hergebruik
+          </p>
+        </div>
+        <div className="block">
+          <p>3. Samen met Flagbag bekijken we de ontwerpmogelijkheden.</p>
         </div>
       </section>
-      <section className="container">
-        <h2 className="py-5 title text-center">Chance, dat ge mij kunt wassen op 30 °C</h2>
-        <article>
-          <div className="bg-darker center-block">
-            <h2 className="title-left">Waarom eigenlijk?</h2>
-            <p className="content">
-              Deels uit eigen ervaringen en ’struggles’ die we zelf hebben ervaren in onze zoektocht en tijdens
-              gesprekken, waar- bij we heel vaak merken dat er veel mensen proberen hun steentje bij te dragen, maar niet
-              weten waar te beginnen.
-            </p>
-            <p className="content">
-              We krijgen hieromtrent veel vragen en beseffen dat er nood is aan verduidelijking. Hierbij willen we ons
-              uiterste best doen om mensen hierin te begeleiden.
-            </p>
-            <img className="img-right" src="/gepakt-en-gezakt/section-1/girl-holding-bag-1.jpg" alt="girl holding bag" />
-          </div>
-        </article>
+      <section className="row container">
+        <div className="block">
+          <p>4. Via onze crowdfunding bieden we verschillende opties aan de koper.</p>
+        </div>
+        <div className="block bg-light">
+          <p>5. Enkel wat besteld wordt, wordt in productie gebracht. De producten zijn dus limited edition.</p>
+        </div>
+        <div className="block bg-light">
+          <p>6. In het naaiatelier van Flagbag worden mensen via een sociale tewerkstelling te werk gesteld.</p>
+        </div>
+      </section>
+      <section className="row container">
+        <div className="block bg-darker">
+          <p>7. Zij naaien de producten met gerecycleerd materiaal en worden hiervoor eerlijk vergoed.</p>
+        </div>
+        <div className="block">
+          <p>8. Alle bestellingen worden verzonden en er is geen overschot.</p>
+        </div>
+        <div className="block bg-darker">
+          <p>9. Jij gelukkig, wij gelukkig!</p>
+        </div>
+      </section>
+      <section className="bg-light p-3 mx-5 center-block">
+        <h2 className="secondary mb-2">Recycling</h2>
+        <p>
+          Recycling is niet hetzelfde als iets hergebruiken. Als er iets gerecycled wordt, dan wordt het product opnieuw
+          gebruikt om iets anders mee te maken. Wij recyclen tentstof en luchtballonstof en maken er tassen en poncho’s
+          van. Omdat er in de natuur geen afval bestaat, afval is een mense- lijk concept. De natuur cre‘ert niets dat
+          door hetzelfde systeem kan worden gerecupereerd. Met onze campagne willen we graag gesprekken starten met
+          mensen die we met dit concept in aanraking laten komen en overtuigen. We willen anderen overtuigen dat elk
+          product ook zijn waarde heeft en je heel veel ‘afval’ kan recyclen en het een tweede of derde leven kan geven.
+          We willen graag dat mensen hierdoor ge‘nspireerd geraken.
+        </p>
       </section>
     </div>
   );

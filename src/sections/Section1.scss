@@ -32,4 +32,12 @@
   .img-wrapper {
     margin: 0 0 0 auto;
   }
+
+  .thumbs-wrapper-1 {
+    justify-content: space-between;
+
+    .thumb {
+      width: 24%;
+    }
+  }
 }

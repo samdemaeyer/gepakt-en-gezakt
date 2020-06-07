@@ -3,8 +3,8 @@ import './Section1.scss';
 
 export default function Section1({ id }) {
   return (
-    <div id={id}>
-      <section className="container p-5" id="scroll-section-1">
+    <div id={id} className="scroll-section">
+      <section className="container p-5">
         <div className="thumbs-wrapper">
           <img className="thumb" src="/gepakt-en-gezakt/section-1/tents-1.jpg" alt="tents-1" />
           <img className="thumb" src="/gepakt-en-gezakt/section-1/tents-2.jpg" alt="tents-2" />
@@ -54,6 +54,15 @@ export default function Section1({ id }) {
           </div>
         </section>
       </div>
+      <section className="p-2 pt-5 mt-2">
+        <h2 className="title pb-1">Ik word geire gedragen.</h2>
+        <div className="thumbs-wrapper-1 d-flex">
+          <img className="thumb" src="/gepakt-en-gezakt/section-1/bag.jpg" alt="bag" />
+          <img className="thumb" src="/gepakt-en-gezakt/section-1/girl-holding-bag-1.jpg" alt="girl holding bag" />
+          <img className="thumb" src="/gepakt-en-gezakt/section-1/girl-waring-bag.jpg" alt="girl waring bag" />
+          <img className="thumb" src="/gepakt-en-gezakt/section-1/girl-holding-bag-2.jpg" alt="girl holding bag" />
+        </div>
+      </section>
     </div>
   );
 };

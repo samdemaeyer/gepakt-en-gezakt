@@ -7,19 +7,21 @@ class NavBar extends React.Component {
     this.state = { isOpen: false };
   }
 
-  scrollToAnchor = (e, id) => {
+  scrollToAnchor = (e, id, offset = 0) => {
     e.preventDefault();
-    document.getElementById(id).scrollIntoView({ inline: 'nearest' });
+    document.getElementById(id).scrollIntoView({ behavior: 'auto' /*block: 'end',  inline: 'nearest'*/ });
     this.setState({ isOpen: false });
   };
 
   render() {
     return (
       <nav className={`main-nav ${this.state.isOpen ? 'is-open' : ''}`} id="nav-bar">
-        <img src="/gepakt-en-gezakt/logo.png" alt="main-logo" className="main-logo" />
+        <a href="#section-1" onClick={(e) => this.scrollToAnchor(e, 'section-1')}>
+          <img src="/gepakt-en-gezakt/logo.png" alt="main-logo" className="main-logo" />
+        </a>
         <ul className="nav-items">
           <li>
-            <a href="#section-1" onClick={(e) => this.scrollToAnchor(e, 'scroll-section-1')} className="nav-item">
+            <a href="#section-1" onClick={(e) => this.scrollToAnchor(e, 'section-1')} className="nav-item">
               De situatie
             </a>
           </li>
