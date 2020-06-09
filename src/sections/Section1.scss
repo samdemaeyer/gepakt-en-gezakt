@@ -40,4 +40,21 @@
       width: 24%;
     }
   }
+
+  .title {
+    position: relative;
+    display: inline-block;
+
+    .pijl-rechts {
+      background-image: url(/gepakt-en-gezakt/icons/pijl-rechts.png);
+      width: 100px;
+      height: 100px;
+      background-size: 100px;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: -170px;
+      top: 20px;
+      z-index: 100;
+    }
+  }
 }

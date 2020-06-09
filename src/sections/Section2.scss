@@ -14,6 +14,20 @@
 
   .title {
     width: 100%;
+
+    .pijl {
+      background-image: url(/gepakt-en-gezakt/icons/pijl-rechts.png);
+      background-repeat: no-repeat;
+      background-size: 180px;
+      height: 100px;
+      left: 80px;
+      position: absolute;
+      right: -170px;
+      top: 220px;
+      transform: rotate(75deg);
+      width: 180px;
+      z-index: 100;
+    }
   }
 
   .center-block {

@@ -6,7 +6,10 @@ export default function Section2({ id }) {
     <div id={id} className="scroll-section">
       <section className="bg-darker section">
         <div className="container d-flex">
-          <h2 className="title p-1 text-center">Gepakt en gezakt</h2>
+          <h2 className="title p-1 text-center">
+            Gepakt en gezakt
+            <div className="pijl"></div>
+          </h2>
           <article className="py-5 px-3 bg-light content-right d-flex">
             <p className="mr-2">
               Onze campagne, gepakt en gezakt bestaat uit het doel om een duurzaam state- ment te kunnen maken. Zo hebben

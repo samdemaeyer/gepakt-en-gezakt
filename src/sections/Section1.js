@@ -18,6 +18,7 @@ export default function Section1({ id }) {
           Draag jij volgend jaar
           <br />
           een achtergelaten tentje?
+          <div className="pijl-rechts"></div>
         </h2>
       </section>
       <div className="bg-darker">

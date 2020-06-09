@@ -7,9 +7,15 @@ export default function Section4({ id }) {
       <h2 className="secondary container">Aanbod</h2>
       <section className="bg-light img-wrapper">
         <div className="img-wrapper container pt-5 d-flex">
-          <img className="thumb" src="/gepakt-en-gezakt/section-4/girl-holding-bag-1.jpg" alt="girl holding bag" />
-          <img className="thumb" src="/gepakt-en-gezakt/section-4/girl-holding-bag-2.jpg" alt="girl holding bag" />
-          <img className="thumb" src="/gepakt-en-gezakt/section-4/girl-holding-bag-3.jpg" alt="girl holding bag" />
+          <div className="img">
+            <img src="/gepakt-en-gezakt/section-4/girl-holding-bag-1.jpg" alt="girl holding bag" />
+          </div>
+          <div className="img">
+            <img src="/gepakt-en-gezakt/section-4/girl-holding-bag-2.jpg" alt="girl holding bag" />
+          </div>
+          <div className="img">
+            <img src="/gepakt-en-gezakt/section-4/girl-holding-bag-3.jpg" alt="girl holding bag" />
+          </div>
         </div>
       </section>
       <section className="content-wrapper pt-5">
@@ -43,6 +49,7 @@ export default function Section4({ id }) {
         </div>
       </section>
       <section className="bg-light p-3 mx-5 center-block">
+        <div className="pijl"></div>
         <h2 className="secondary mb-2">Crowdfunding</h2>
         <p>
         Ben jij overtuigd?! en wil jij er eentje?
