@@ -40,11 +40,6 @@ class NavBar extends React.Component {
               Aanbod
             </a>
           </li>
-          <li>
-            <a href="#section-5" onClick={(e) => this.scrollToAnchor(e, 'section-5')} className="nav-item">
-              Contact
-            </a>
-          </li>
         </ul>
         <button type="button" className="menu-toggle" onClick={(e) => this.setState({ isOpen: !this.state.isOpen })}>
           <i className="fa fa-bars"></i>

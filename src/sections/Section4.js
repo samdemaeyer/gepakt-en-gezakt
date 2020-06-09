@@ -7,9 +7,9 @@ export default function Section4({ id }) {
       <h2 className="secondary container">Aanbod</h2>
       <section className="bg-light img-wrapper">
         <div className="img-wrapper container pt-5 d-flex">
-          <img src="/gepakt-en-gezakt/section-1/bag.jpg" alt="bag" />
-          <img src="/gepakt-en-gezakt/section-1/girl-holding-bag-1.jpg" alt="girl holding bag" />
-          <img src="/gepakt-en-gezakt/section-1/girl-waring-bag.jpg" alt="girl waring bag" />
+          <img className="thumb" src="/gepakt-en-gezakt/section-4/girl-holding-bag-1.jpg" alt="girl holding bag" />
+          <img className="thumb" src="/gepakt-en-gezakt/section-4/girl-holding-bag-2.jpg" alt="girl holding bag" />
+          <img className="thumb" src="/gepakt-en-gezakt/section-4/girl-holding-bag-3.jpg" alt="girl holding bag" />
         </div>
       </section>
       <section className="content-wrapper pt-5">

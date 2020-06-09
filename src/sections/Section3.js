@@ -8,6 +8,8 @@ export default function Section3({ id }) {
       <section className="row container">
         <div className="block bg-light">
           <p>1. Flagbag verzamelt achtergelaten tenten op festivals.</p>
+          <div className="tenten"></div>
+          <div className="pijl-rechts block-1"></div>
         </div>
         <div className="block">
           <p>
@@ -16,14 +18,19 @@ export default function Section3({ id }) {
         </div>
         <div className="block">
           <p>3. Samen met Flagbag bekijken we de ontwerpmogelijkheden.</p>
+          <div className="tassen-en-poncho"></div>
+          <div className="pijl block-3"></div>
         </div>
       </section>
       <section className="row container">
         <div className="block">
           <p>4. Via onze crowdfunding bieden we verschillende opties aan de koper.</p>
+          <div className="ulule"></div>
+          <div className="pijl-rechts-beneden"></div>
         </div>
         <div className="block bg-light">
           <p>5. Enkel wat besteld wordt, wordt in productie gebracht. De producten zijn dus limited edition.</p>
+          <div className="naaimachine"></div>
         </div>
         <div className="block bg-light">
           <p>6. In het naaiatelier van Flagbag worden mensen via een sociale tewerkstelling te werk gesteld.</p>
@@ -32,12 +39,14 @@ export default function Section3({ id }) {
       <section className="row container">
         <div className="block bg-darker">
           <p>7. Zij naaien de producten met gerecycleerd materiaal en worden hiervoor eerlijk vergoed.</p>
+          <div className="pijl-rechts"></div>
         </div>
         <div className="block">
           <p>8. Alle bestellingen worden verzonden en er is geen overschot.</p>
         </div>
         <div className="block bg-darker">
           <p>9. Jij gelukkig, wij gelukkig!</p>
+          <div className="pijl"></div>
         </div>
       </section>
       <section className="bg-light p-3 mx-5 center-block">

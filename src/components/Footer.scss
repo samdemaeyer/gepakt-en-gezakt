@@ -1,0 +1,13 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  .content {
+    flex: 1;
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+}

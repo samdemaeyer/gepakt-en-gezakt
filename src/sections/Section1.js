@@ -11,6 +11,9 @@ export default function Section1({ id }) {
           <img className="thumb" src="/gepakt-en-gezakt/section-1/tents-3.jpg" alt="tents-3" />
         </div>
         <img src="/gepakt-en-gezakt/section-1/tents-big.jpg" alt="tents big" />
+        <div className="text-right">
+          <small>© De Morgen</small>
+        </div>
         <h2 className="title pt-1 mb-0">
           Draag jij volgend jaar
           <br />
