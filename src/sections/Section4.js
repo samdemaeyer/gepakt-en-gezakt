@@ -18,7 +18,7 @@ export default function Section4({ id }) {
           </div>
         </div>
       </section>
-      <section className="content-wrapper pt-5">
+      <section className="content-wrapper">
         <div className="d-flex container">
           <div className="content mt-3">
             <h3 className="mb-1">Plooier</h3>

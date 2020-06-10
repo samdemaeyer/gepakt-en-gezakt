@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.scss';
 
-export default function Section5({ id }) {
+export default function Footer() {
   return (
     <footer className="bg-darker">
       <section className="container p-1 d-flex px-5">

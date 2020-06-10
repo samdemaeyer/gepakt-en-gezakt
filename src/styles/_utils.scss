@@ -18,6 +18,7 @@
       padding-bottom: #{$i}rem;
     }
   }
+
   .m {
     &y-#{$i} {
       margin-top: #{$i}rem;
@@ -33,6 +34,44 @@
       margin-right: #{$i}rem;
     }
   }
+
+  @media only screen and (max-width: $media-breakpoint-small) {
+    .p {
+      &-#{$i} {
+        padding: #{$i/2}rem;
+      }
+      &y-#{$i} {
+        padding-top: #{$i/2}rem;
+        padding-bottom: #{$i/2}rem;
+      }
+      &x-#{$i} {
+        padding-left: #{$i/2}rem;
+        padding-right: #{$i/2}rem;
+      }
+      &t-#{$i} {
+        padding-top: #{$i/2}rem;
+      }
+      &b-#{$i} {
+        padding-bottom: #{$i/2}rem;
+      }
+    }
+
+    .m {
+      &y-#{$i} {
+        margin-top: #{$i/2}rem;
+        margin-bottom: #{$i/2}rem;
+      }
+      &t-#{$i} {
+        margin-top: #{$i/2}rem;
+      }
+      &b-#{$i} {
+        margin-bottom: #{$i/2}rem;
+      }
+      &r-#{$i} {
+        margin-right: #{$i/2}rem;
+      }
+    }
+  }
 }
 
 .text-center {
@@ -46,4 +85,8 @@
 
 .d-flex {
   display: flex;
+
+  @media only screen and (max-width: $media-breakpoint-small) {
+    flex-wrap: wrap;
+  }
 }

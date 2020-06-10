@@ -41,7 +41,7 @@ export default function Section2({ id }) {
               We krijgen hieromtrent veel vragen en beseffen dat er nood is aan verduidelijking. Hierbij willen we ons
               uiterste best doen om mensen hierin te begeleiden.
             </p>
-            <img className="img-right" src="/gepakt-en-gezakt/section-1/girl-holding-bag-1.jpg" alt="girl holding bag" />
+            {/* <img className="img-right" src="/gepakt-en-gezakt/section-1/girl-holding-bag-1.jpg" alt="girl holding bag" /> */}
           </div>
         </article>
       </section>

@@ -1,13 +1,31 @@
+@import '../styles/variables';
+
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 1000;
 
   .content {
     flex: 1;
 
     &:not(:last-child) {
       margin-right: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: $media-breakpoint-medium) {
+    .container {
+      flex-direction: column;
+    }
+
+    .content {
+      flex: initial;
+      text-align: center;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
     }
   }
 }

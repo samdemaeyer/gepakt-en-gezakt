@@ -116,4 +116,59 @@
     bottom: -30px;
     z-index: 100;
   }
+
+  @media only screen and (max-width: $media-breakpoint-medium) {
+    .center-block {
+      padding: 5rem 2rem;
+    }
+
+    .row {
+      flex-wrap: wrap;
+
+      .block {
+        padding: 4rem 3rem;
+        width: 100%;
+        height: calc(100vw - 4rem);
+        position: relative;
+        border: 1px solid #eaefeb;
+        margin: .5rem 0;
+      }
+    }
+
+    .pijl, .pijl-rechts, .pijl-rechts-beneden {
+      display: none;
+    }
+
+    .tenten {
+      bottom: -75px;
+      left: 0;
+      width: 100%;
+    }
+
+    .tassen-en-poncho {
+      background-position-x: center;
+      background-position-y: bottom;
+      background-size: 50%;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    .ulule {
+      left: 0;
+      bottom: 2rem;
+      background-position: center;
+      top: auto;
+      background-position-y: bottom;
+    }
+
+    .naaimachine {
+      top: auto;
+      bottom: 2rem;
+      left: 0;
+      background-position-y: bottom;
+      background-position-x: center;
+      background-size: 50%;
+    }
+  }
 }

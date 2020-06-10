@@ -14,6 +14,7 @@
 
   .title {
     width: 100%;
+    position: relative;
 
     .pijl {
       background-image: url(/gepakt-en-gezakt/icons/pijl-rechts.png);
@@ -54,4 +55,39 @@
   margin: 5rem auto;
   position: relative;
   width: 800px;
+}
+
+@media only screen and (max-width: $media-breakpoint-small) {
+  .center-block {
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem auto;
+  }
+
+  #section-2 {
+    .section {
+      padding: 5rem 0;
+    }
+
+    .content-right {
+      max-width: 100%;
+      margin-bottom: 2rem;
+
+    }
+
+    .center-block {
+      padding: 5rem 2rem;
+
+      .title-left {
+        margin: -2rem 0 1rem 0;
+      }
+      .content {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .pijl {
+    display: none;
+  }
 }

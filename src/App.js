@@ -20,9 +20,10 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    if (window.innerWidth < 585) { return; }
+
     let firstSection = document.getElementById(this.state.sections[0].props.id);
     const menuHeight = document.getElementById('nav-bar').getBoundingClientRect().height;
-
     window.addEventListener('scroll', () => {
       if (window.pageYOffset > (firstSection.clientHeight + menuHeight)) {
         const firstSectionFromArray = this.state.sections.shift();

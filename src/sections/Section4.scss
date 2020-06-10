@@ -1,3 +1,5 @@
+@import '../styles/variables';
+
 #section-4 {
   .img-wrapper {
     img {
@@ -11,6 +13,7 @@
 
   .content-wrapper {
     margin-top: -5rem;
+    padding-top: 5rem;
     background-color: white;
 
     .content {
@@ -46,5 +49,20 @@
     transform: rotate(60deg);
     width: 180px;
     z-index: 100;
+  }
+
+  @media only screen and (max-width: $media-breakpoint-medium) {
+    .content-wrapper {
+      .content {
+        flex: initial;
+      }
+    }
+    .center-block {
+      margin: 2rem auto 0 auto;
+    }
+
+    .pijl {
+      display: none;
+    }
   }
 }
