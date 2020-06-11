@@ -69,6 +69,14 @@
       }
     }
 
+    article {
+      .content {
+        &:not(:last-child) {
+          padding-right: 0;
+        }
+      }
+    }
+
     .thumbs-wrapper-1 {
       .thumb {
         height: 100%;

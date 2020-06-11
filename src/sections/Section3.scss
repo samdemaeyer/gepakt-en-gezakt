@@ -13,17 +13,19 @@
   }
 
   .center-block {
-    padding: 5rem 5rem 10rem 5rem;
+    padding: 5rem;
+    margin: 6rem auto 0 auto;
+    position: relative;
   }
 
   .naaimachine {
     background-image: url(/gepakt-en-gezakt/icons/naaimachine.png);
     width: 100%;
     height: 100%;
-    background-size: 350px;
+    background-size: 305px;
     background-repeat: no-repeat;
     position: absolute;
-    left: 50%;
+    left: 55%;
     top: 40%;
     z-index: 100;
   }
@@ -32,11 +34,11 @@
     background-image: url(/gepakt-en-gezakt/icons/ulule.png);
     width: 100%;
     height: 100%;
-    background-size: 100px;
+    background-size: 185px;
     background-repeat: no-repeat;
     position: absolute;
-    left: 35%;
-    top: 40%;
+    left: 25%;
+    top: 37%;
     z-index: 100;
   }
 
@@ -95,25 +97,25 @@
 
   .tassen-en-poncho {
     background-image: url(/gepakt-en-gezakt/icons/tassen-en-poncho.png);
-    width: 250px;
-    height: 250px;
+    width: 330px;
+    height: 330px;
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    right: 70px;
-    bottom: -30px;
+    right: 41px;
+    bottom: -44px;
     z-index: 100;
   }
 
   .tenten {
     background-image: url(/gepakt-en-gezakt/icons/tenten.png);
-    width: 290px;
-    height: 250px;
+    width: 350px;
+    height: 310px;
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
     right: 30px;
-    bottom: -30px;
+    bottom: -60px;
     z-index: 100;
   }
 
@@ -131,17 +133,19 @@
         height: calc(100vw - 4rem);
         position: relative;
         border: 1px solid #eaefeb;
-        margin: .5rem 0;
+        margin: 0.5rem 0;
       }
     }
 
-    .pijl, .pijl-rechts, .pijl-rechts-beneden {
+    .pijl,
+    .pijl-rechts,
+    .pijl-rechts-beneden {
       display: none;
     }
 
     .tenten {
-      bottom: -75px;
-      left: 0;
+      bottom: -155px;
+      left: -6px;
       width: 100%;
     }
 
@@ -155,20 +159,21 @@
     }
 
     .ulule {
+      background-position-x: 49%;
+      background-position-y: 33%;
+      background-size: 38%;
+      bottom: 0px;
       left: 0;
-      bottom: 2rem;
-      background-position: center;
-      top: auto;
-      background-position-y: bottom;
+      width: 100%;
     }
 
     .naaimachine {
-      top: auto;
-      bottom: 2rem;
+      background-position-x: 49%;
+      background-position-y: 57%;
+      background-size: 65%;
+      bottom: 0px;
       left: 0;
-      background-position-y: bottom;
-      background-position-x: center;
-      background-size: 50%;
+      width: 100%;
     }
   }
 }

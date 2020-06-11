@@ -11,6 +11,12 @@
     }
   }
 
+  .center-block {
+    margin: 5rem auto;
+    position: relative;
+    height: 247px;
+  }
+
   .content-wrapper {
     margin-top: -5rem;
     padding-top: 5rem;
@@ -45,7 +51,7 @@
     left: 80px;
     position: absolute;
     left: -170px;
-    top: -30px;
+    top: 36px;
     transform: rotate(60deg);
     width: 180px;
     z-index: 100;
