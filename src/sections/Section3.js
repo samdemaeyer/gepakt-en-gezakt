@@ -64,7 +64,7 @@ export default function Section3({ id }) {
       </section>
       <section className="bg-light p-3 mx-5 center-block">
         <h2 className="secondary mb-2">Recycling</h2>
-        <p>
+        <p align="justify">
           Recycling is niet hetzelfde als iets hergebruiken. Als er iets
           gerecycled wordt, dan wordt het product opnieuw gebruikt om er iets
           anders mee te maken. Wij recyclen tentstof en luchtballonstof en maken
