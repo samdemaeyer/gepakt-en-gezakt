@@ -53,10 +53,9 @@
 }
 
   .center-block {
-    margin: 0rem auto;
+    margin: 5rem auto 0 auto;
     position: relative;
     width: 800px;
-    height: 335px;
 }
 
 @media only screen and (max-width: $media-breakpoint-small) {
@@ -67,6 +66,10 @@
   }
 
   #section-2 {
+    .img-right{
+      display: none;
+    }
+
     .section {
       padding: 5rem 0;
     }
