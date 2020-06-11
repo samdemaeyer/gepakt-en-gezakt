@@ -4,7 +4,7 @@
   text-align: justify;
   .section {
     margin-top: -10rem;
-    padding-top: 15rem;
+    padding-top: 9rem;
     padding-bottom: 5rem;
     justify-content: space-between;
   }
@@ -52,10 +52,11 @@
   }
 }
 
-.center-block {
-  margin: 5rem auto;
-  position: relative;
-  width: 800px;
+  .center-block {
+    margin: 0rem auto;
+    position: relative;
+    width: 800px;
+    height: 335px;
 }
 
 @media only screen and (max-width: $media-breakpoint-small) {

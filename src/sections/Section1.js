@@ -12,7 +12,7 @@ export default function Section1({ id }) {
         </div>
         <img src="/gepakt-en-gezakt/section-1/tents-big.jpg" alt="tents big" />
         <div className="text-right">
-          <small>© De Morgen</small>
+          <small>© <a href="https://www.demorgen.be/tv-cultuur/hallucinant-dit-laten-kampeerders-achter-op-pukkelpop~bccba871/" target="_blank">De Morgen</a></small>
         </div>
         <h2 className="title pt-1 mb-0">
           Draag jij volgend jaar
