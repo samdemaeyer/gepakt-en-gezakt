@@ -47,10 +47,11 @@ export default function Section4({ id }) {
           <div className="content mt-3">
             <h3 className="mb-1">Frakzak</h3>
             <p>
-              De ‘Frakzak’ is niet voor niets de beste frak. Deze worden in een
-              handig formaat gemaakt van achtergelaten festivaltentjes. Je komt
-              nooit meer op een festival zonder een herbruikbare poncho die nog
-              eens stijlvol is ook.
+              De ‘Frakzak’ is niet voor niets de beste frak! Gemaakt van oude
+              festi- valtentjes en in een handig formaat. Je komt nooit meer op
+              een festival zonder een herbruikbare poncho die nog eens stijlvol
+              is ook! Makkelijk op te bergen en mee te nemen. Wie lokt gij mee
+              in uw tent?
             </p>
           </div>
         </div>
