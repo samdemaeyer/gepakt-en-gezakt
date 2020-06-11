@@ -22,7 +22,7 @@ export default function Section4({ id }) {
         <div className="d-flex container">
           <div className="content mt-3">
             <h3 className="mb-1">Plooier</h3>
-            <p>
+            <p className="text-justify text-sm-left">
               De ‘plooier' is een zak voor alle mensen die nog steeds figuurlijk
               ‘plooien’ voor de plastic zakjes in de winkel omdat ze er zo aan
               gehecht zijn. Deze zak, welke gemaakt is van gerecycleerde
@@ -34,7 +34,7 @@ export default function Section4({ id }) {
           </div>
           <div className="content mt-3">
             <h3 className="mb-1">Miszaksel</h3>
-            <p>
+            <p className="text-justify text-sm-left">
               Onze ‘miszaksel’ (niet te verwarren met ‘misbaksel’), is zowel een
               handige als stijlvolle tas. Tegenwoordig worden er veel ‘tote
               bags’ uitgedeeld die erg functioneel zijn. Het enige minpunt aan
@@ -46,7 +46,7 @@ export default function Section4({ id }) {
           </div>
           <div className="content mt-3">
             <h3 className="mb-1">Frakzak</h3>
-            <p>
+            <p className="text-justify text-sm-left">
               De ‘Frakzak’ is niet voor niets de beste frak! Gemaakt van oude
               festi- valtentjes en in een handig formaat. Je komt nooit meer op
               een festival zonder een herbruikbare poncho die nog eens stijlvol

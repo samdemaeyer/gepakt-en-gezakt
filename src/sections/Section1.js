@@ -24,13 +24,13 @@ export default function Section1({ id }) {
       <div className="bg-darker">
         <section className="container">
           <article className="p-5 d-flex">
-            <p className="content">
+            <p className="content text-justify flex-1 text-sm-left">
               In de ideale wereld zou de oplossing natuurlijk zijn dat er geen
               zwerfvuil meer wordt achtergelaten op festivalterreinen en dat
               iedereen zijn afval achterlaat in de voorziene vuilbakken en zijn
               kampeermateriaal het jaar erop opnieuw zou gebruiken.
             </p>
-            <p className="content">
+            <p className="content text-justify flex-1 text-sm-left">
               Maar wat met de achtergelaten tenten of als deze stuk zijn gegaan?
               Wij gingen hiervoor op zoek naar een alternatief. We gingen
               namelijk de achtergelaten tenten recycleren. Recycleren is niet de
@@ -45,7 +45,7 @@ export default function Section1({ id }) {
             <h2 className="p-5 title text-center">
               1 op 4 laat hun tent achter op festivalweides
             </h2>
-            <article className="p-3 mt-3 bg-light">
+            <article className="p-3 mt-3 bg-light text-justify text-sm-left">
               <p>
                 Wij zijn Gepakt en Gezakt en voeren een sensibilise-
                 ringscampagne rond plastic, meer bepaald het plasticafval op
@@ -54,7 +54,7 @@ export default function Section1({ id }) {
                 oplossingen van sluikstort op de festivalterreinen en op die
                 manier kan elk zijn eigen steentje bijdragen.
               </p>
-              <p className="mb-0">
+              <p className="mb-0 text-justify text-sm-left">
                 Zelf zijn wij, Carla-Reina Cochez en Dorina Verdyck, twee master
                 studenten aan Sint Lucas Antwerpen in de richting beeldende
                 kunsten in de socio-politieke context en medeoprichters van het
