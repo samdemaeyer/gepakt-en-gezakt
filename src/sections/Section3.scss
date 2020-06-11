@@ -133,18 +133,20 @@
         height: calc(100vw - 4rem);
         position: relative;
         border: 1px solid #eaefeb;
-        margin: .5rem 0;
+        margin: 0.5rem 0;
       }
     }
 
-    .pijl, .pijl-rechts, .pijl-rechts-beneden {
+    .pijl,
+    .pijl-rechts,
+    .pijl-rechts-beneden {
       display: none;
     }
 
     .tenten {
       bottom: -155px;
-    left: -6px;
-    width: 100%;
+      left: -6px;
+      width: 100%;
     }
 
     .tassen-en-poncho {
@@ -167,11 +169,11 @@
 
     .naaimachine {
       background-position-x: 49%;
-    background-position-y: 57%;
-    background-size: 65%;
-    bottom: 0px;
-    left: 0;
-    width: 100%;
+      background-position-y: 57%;
+      background-size: 65%;
+      bottom: 0px;
+      left: 0;
+      width: 100%;
     }
   }
 }
