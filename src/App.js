@@ -15,23 +15,20 @@ class App extends React.Component {
         <Section2 key={1} id="section-2" />,
         <Section3 key={2} id="section-3" />,
         <Section4 key={3} id="section-4" />,
+        <Section1 key={4} id="section-5" />,
       ]
     }
   }
 
   componentDidMount() {
-    if (window.innerWidth < 585) { return; }
-
-    let firstSection = document.getElementById(this.state.sections[0].props.id);
-    const menuHeight = document.getElementById('nav-bar').getBoundingClientRect().height;
     window.addEventListener('scroll', () => {
-      if (window.pageYOffset > (firstSection.clientHeight + menuHeight)) {
-        const firstSectionFromArray = this.state.sections.shift();
-        this.setState({ sections: [...this.state.sections, firstSectionFromArray] });
-        firstSection = document.getElementById(this.state.sections[0].props.id);
+      let lastSection = document.getElementById(this.state.sections[4].props.id)
+      if (lastSection.getBoundingClientRect().top < 0) {
+        window.scrollTo(0, 0);
       }
     });
   }
+
   render() {
     return (
       <>
