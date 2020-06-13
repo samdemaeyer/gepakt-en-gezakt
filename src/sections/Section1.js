@@ -51,7 +51,7 @@ export default function Section1({ id }) {
             <h2 className="p-5 title text-center">1 op 4 laat hun tent achter op festivalweides</h2>
             <article className="p-3 mt-3 bg-light text-justify text-sm-left">
               <p>
-                Wij zijn Gepakt en Gezakt en voeren een sensibilise- ringscampagne rond plastic, meer bepaald het
+                Wij zijn Gepakt en Gezakt en voeren een sensibiliseringscampagne rond plastic, meer bepaald het
                 plasticafval op festivals. Via deze campagne proberen we festivalgangers aan te sporen om zelf deel uit
                 te maken van één van de zovele oplossingen van sluikstort op de festivalterreinen en op die manier kan
                 elk zijn eigen steentje bijdragen.
@@ -64,7 +64,7 @@ export default function Section1({ id }) {
             </article>
           </div>
           <div className="img-wrapper">
-            <img src="/gepakt-en-gezakt/section-1/girl-holding-bag.png" alt="Girl olding a bag" />
+            <img src="/gepakt-en-gezakt/section-1/girl-holding-bag.jpg" alt="Girl holding a bag" />
           </div>
         </section>
       </div>
